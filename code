@@ -35,6 +35,8 @@ CREDITS
 
 > Inline images resizing script: https://gukthemes.com/post/169692012691/inline-images-resizing-script
 
+> Tippy.js: https://atomiks.github.io/tippyjs/
+
 > NPF Photoset Fix: https://annalogs.tumblr.com/photosets
 
 > customaudio.js: https://annasthms.tumblr.com/more/js/customaudio/new
@@ -60,11 +62,10 @@ CREDITS
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Epilogue:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
 <!--------------Custom Fonts-------------->
  
-<!--Homelinks Icons -->
+<!--------------Homelinks Icons -------------->
 <link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">
-<!--Homelinks Icons-->
+<!--------------Homelinks Icons-------------->
 
- 
     <title>{Title}</title>
     <link rel="shortcut icon" href="{Favicon}">
     <link rel="altertnate" type="application/rss+xml" href="{RSS}">
@@ -75,44 +76,64 @@ CREDITS
     <meta http-equiv="x-dns-prefetch-control" content="off"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
-<!--Custom Options-->
-<meta name="color:background" content="#f8f8f8" />
-<meta name="color:accent" content="#0f0f0f" />
-<meta name="color:accented text" content="#ffffff" />
-<meta name="color:Text" content="#888888" />    
-<meta name="color:bold" content="#c54730"/>
-<meta name="color:italic" content="#c54730"/>
-<meta name="color:Links" content="#000000" />
-<meta name="color:Link Hover" content="#a8a8a8" />
-<meta name="color:text selection" content="#ffffff" />
-<meta name="color:text selection background" content="#c54730" />
-<meta name="color:Blockquote" content="#c54730" />
-<meta name="color:scrollbar" content="#918D7C" />
+<!----------------Custom Options---------------->
 
-<meta name="color:top bar" content="#152B3C" />
-<meta name="color:sidebar title" content="#ffffff" />
+<meta name="color:background" content="#fbfbfb" />
+<meta name="color:accent" content="#79D7FF" />
+<meta name="color:accented text" content="#ffffff" />
+<meta name="color:text" content="#414552" />    
+<meta name="color:bold" content="#b8baff"/>
+<meta name="color:italic" content="#b8baff"/>
+<meta name="color:Links" content="#000000" />
+<meta name="color:Link Hover" content="#b8baff" />
+<meta name="color:text selection" content="#000000" />
+<meta name="color:text selection background" content="#79D7FF" />
+<meta name="color:blockquote" content="#79D7FF" />
+<meta name="color:scrollbar" content="#79D7FF" />
+
+<meta name="color:sidebar title" content="#000000" />
 <meta name="color:sidebar description" content="#414552" />
-<meta name="color:navigation" content="#ffffff" />
-<meta name="color:navigation hover" content="#f0a866" />
+<meta name="color:navigation" content="#000000" />
+<meta name="color:navigation hover" content="#b8baff" />
 <meta name="color:Posts" content="#ffffff" />
 <meta name="color:Post Title" content="#000000" />
 <meta name="color:Post Borders" content="#f6f6f6" />
 <meta name="color:question" content="#000000" />
 <meta name="color:question background" content="#fafafa" />
-<meta name="color:chat odd" content="#00000"/>
-<meta name="color:chat even" content="#c54730"/>
+<meta name="color:chat odd" content="#b8baff"/>
+<meta name="color:chat even" content="#000000"/>
 <meta name="color:pagination" content="#000000" />
 <meta name="color:permalink" content="#ffffff" />
-<meta name="color:permalink background" content="#0f0f0f" />
+<meta name="color:permalink background" content="#23192d" />
 <meta name="color:permalink hover" content="#cccccc" />
+
+<meta name="color:&#x25C6;&#x3A;&#x2A;&#x3A;&#x25C7;&#x3A;&#x2A;&#x3A;&#x25C6;&#x3A;&#x2A;&#x3A;&#x25C7;&#x3A;&#x2A;&#x3A;&#x25C6;">
+
+<meta name="color:accent night" content="#79D7FF" />
+<meta name="color:accented text night" content="#000000" />
+<meta name="color:background night" content="#313131" />
+<meta name="color:lightbox background night" content="#313131" />
+<meta name="color:text night" content="#ffffff" />
+<meta name="color:bold night" content="#79D7FF" />
+<meta name="color:italic night" content="#79D7FF" />
+<meta name="color:links night" content="#ffffff" />
+<meta name="color:link hover night" content="#79D7FF" />
+<meta name="color:posts background night" content="#414141" />
+<meta name="color:night borders" content="#313131" />
+<meta name="color:posts title night" content="#ffffff" />
+<meta name="color:sidebar title night" content="#ffffff" />
+<meta name="color:navigation night" content="#ffffff" />
+<meta name="color:navigation hover night" content="#79D7FF" />
+<meta name="color:question night" content="#ffffff" />
+<meta name="color:question background night" content="#525252" />
+<meta name="color:permalink night" content="#ffffff" />
+<meta name="color:permalink background night" content="#525252" />
+<meta name="color:permalink hover night" content="#79D7FF" />
  
 <meta name="select:Background Attachment" content="fixed" title="fixed">
 <meta name="select:Background Attachment" content="scroll" title="scroll">
 <meta name="select:Background Repeat" content="repeat" title="repeat">
 <meta name="select:Background Repeat" content="no-repeat" title="no repeat">
-
-<meta name="select:sidebar position" content="0" title="left">
-<meta name="select:sidebar position" content="2" title="right">
 
 <meta name="select:Body Font" content="Open Sans" title="Open Sans">
 <meta name="select:Body Font" content="Lato" title="Lato">
@@ -130,6 +151,9 @@ CREDITS
  
 <meta name="select:text align" content="left" title="left">
 <meta name="select:text align" content="justify" title="justify">
+
+<meta name="select:description text align" content="left" title="left">
+<meta name="select:description text align" content="justify" title="justify">
  
 <meta name="select:Post Size" content="400" title="400px">
 <meta name="select:Post Size" content="450" title="450px">
@@ -152,8 +176,7 @@ CREDITS
 <meta name="select:Photoset gutter" content="8" title="8px">
 <meta name="select:Photoset gutter" content="10" title="10px">
 
-<meta name="text:sidebar title" content="sidebar title"/>
-<meta name="text:sidebar subtitle" content="sidebar subtitle"/>
+<meta name="text:topbar title" content="topbar title"/>
 <meta name="text:margin bottom" content="50"/>
 
 <meta name="if:Link1" content="1" />
@@ -183,7 +206,6 @@ CREDITS
 <meta name="text:CustomLink8Name" content="Link 8" />
  
 <meta name="image:background" content=""/>
-<meta name="image:header" content=""/>
 <meta name="image:sidebar" content=""/>
 
 <meta name="if:inverted tumblr controls" content="1" />
@@ -194,7 +216,7 @@ CREDITS
 <meta name="if:Show Captions" content="1"/>
 <meta name="if:hover tags" content="1" />
 
-<!--Custom Options-->
+<!----------------Custom Options---------------->
 
 <!--
         NPF images fix v3.0 by @glenthemes [2021]
@@ -209,28 +231,28 @@ CREDITS
     --NPF-Caption-Spacing:1em;
     --NPF-Image-Spacing:4px;
     
-    /*---------- NIGHT MODE COLOR CUSTOMIZATION ----------*/
+    /*---------- NIGHT MODE COLOR CUSTOMIZATION (DO NOT TOUCH)----------*/
     
-    --accent-night: #79D7FF;
-    --accented-text-night: #000000;
-    --background-night: #313131;
-    --lightbox-background-night: rgba(49, 49, 49, 0.6);
-    --text-night: #ffffff;
-    --bold-night: #79D7FF;
-    --italic-night: #79D7FF;
-    --links-night: #fff;
-    --link-hover-night: #79D7FF;
-    --posts-background-night: #414141;
-    --night-borders: #313131;
-    --posts-title-night: #ffffff;
-    --sidebar-title-night: #ffffff;
-    --navigation-night: #fff;
-    --navigation-hover-night: #313131;
-    --question-night: #ffffff;
-    --question-background-night: #525252;
-    --permalink-night: #fff;
-    --permalink-background-night: #525252;
-    --permalink-hover-night: #79D7FF;
+    --accent-night: {color:accent night};
+    --accented-text-night: {color:accented text night};
+    --background-night: {color:background night};
+    --lightbox-background-night: rgba({RGBcolor:background night}, 0.6);
+    --text-night: {color:text night};
+    --bold-night: {color:bold night};
+    --italic-night: {color:italic night};
+    --links-night: {color:links night};
+    --link-hover-night: {color:link hover night};
+    --posts-background-night: {color:posts background night};
+    --night-borders: {color:night borders};
+    --posts-title-night: {color:posts title night};
+    --sidebar-title-night: {color:sidebar title night};
+    --navigation-night: {color:navigation night};
+    --navigation-hover-night: {color:navigation hover night};
+    --question-night: {color:question night};
+    --question-background-night: {color:question background night};
+    --permalink-night: {color:permalink night};
+    --permalink-background-night: {color:permalink background night};
+    --permalink-hover-night: {color:permalink hover night};
 }
  
 /*----------FADE-IN ANIMATION----------*/
@@ -449,6 +471,7 @@ html, body {
     -moz-animation: fadein 2.5s; /* Firefox */
     -webkit-animation: fadein 2.5s; /* Safari and Chrome */
     -o-animation: fadein  2.5s; /* Opera */
+    transition: 0.6s;
 }
 
 body.night {
@@ -477,6 +500,7 @@ i,em {
 
 body.night i, body.night em {
     color: var(--italic-night)!important;
+    transition: 0.6s;
 }
 
 hr {
@@ -485,6 +509,13 @@ hr {
     background-color: {color:post borders};
     color: {color:post borders};
     border: 0px solid transparent;
+    transition: 0.6s;
+}
+
+body.night hr {
+    background-color: var(--night-borders)!important;
+    color: var(--night-borders)!important;
+    transition: 0.6s;
 }
  
 small,sub,sup {
@@ -495,12 +526,24 @@ h1,h2,h3 {
     font-weight: 700;
     font-size: 1.4em;
     color: {color:bold};
+    transition: 0.6s;
+}
+
+body.night h1,body.night h2,body.night h3 {
+    color:var(--bold-night)!important;
+    transition:.6s;
 }
  
 h4,h5,h6 {
     font-weight: 700;
     font-size: 1.2em;
     color: {color:bold};
+    transition: 0.6s;
+}
+
+body.night h4,body.night h5,body.night h6 {
+    color:var(--bold-night)!important;
+    transition:.6s;
 }
  
 pre {
@@ -513,14 +556,19 @@ pre {
     font-family: inherit;
     font-weight: 400;
     line-height: 150%;
-    color: {color:question};
-    background-color: {color:question background};
 }
  
 blockquote:not(.tumblr_parent) {
     padding-left: 10px;
     margin: 10px;
+    border-radius: 5px;
     border-left: 3px solid {color:blockquote};
+    transition: 0.6s;
+}
+
+body.night blockquote:not(.tumblr_parent) {
+    border-left: 3px solid var(--accent-night);
+    transition:.6s;
 }
  
 blockquote img {
@@ -535,10 +583,10 @@ figure {
 a {
     color:{color:links};
     text-decoration:none;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
 }
 
 body.night a {
@@ -548,10 +596,10 @@ body.night a {
  
 a:hover {
     color:{color:link hover};
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
 }
 
 body.night a:hover {
@@ -590,6 +638,7 @@ body.night #pagination {
 body.night .current_page {
     color: var(--links-night);
     border-bottom: 2px solid var(--accent-night);
+    transition: 0.6s;
 }
  
 #pagination a {
@@ -598,9 +647,7 @@ body.night .current_page {
     color: {color:pagination};
     font-weight: 700;
     border-bottom: 2px solid transparent;
-    -webkit-transition:all 0.8s ease-out;
-    -moz-transition:all 0.8s ease-out;
-    transition:all 0.8s ease-out;
+    transition: 0.6s;
 }
  
 body.night #pagination a {
@@ -610,13 +657,12 @@ body.night #pagination a {
  
 #pagination a:hover {
     color: {color:link hover};
-    -webkit-transition:all 0.8s ease-out;
-    -moz-transition:all 0.8s ease-out;
-    transition:all 0.8s ease-out;
+    transition: 0.6s;
 }
  
 body.night #pagination a:hover {
     color: var(--link-hover-night)!important;
+    transition: 0.6s;
 }
  
 /*----------POSIS CONTAINER----------*/ 
@@ -661,6 +707,7 @@ body.night #pagination a:hover {
     margin-bottom: 50px;
     width: 540px;
     {/block:PermalinkPage}
+    transition: 0.6s;
 }
 
 body.night .posts {
@@ -669,26 +716,21 @@ body.night .posts {
     transition: 0.6s;
 }
 
-.tag-page {
+.la-thumbtack {
     color: {color:links};
-    font-weight: 700;
-    margin-bottom: 10px;
+    border: 3px solid {color:accent};
+    padding: 5px;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    transition: 0.6s;
 }
 
-.pinned {
-    color: {color:links};
-    font-weight: 700;
-    margin-top: -70px;
-    position: absolute;
-}
-
-.la-thumbtack, .la-tags {
-    margin-right: 5px;
-    font-size: 20px;
-    padding: 3px;
-    color: {color:links};
-    display: inline-block;
-    vertical-align: middle;
+body.night .la-thumbtack {
+    background-color: var(--posts-background-night);
+    color: var(--links-night);
+    border: 3px solid var(--accent-night);
+    transition: 0.6s;
 }
  
 .posts ul li {
@@ -701,6 +743,12 @@ body.night .posts {
     content: "―";
     padding-right: 5px;
     color: {color:accent};
+    transition: 0.6s;
+}
+
+body.night .posts ul li:before {
+    color: var(--accent-night);
+    transition: 0.6s;
 }
  
 .posts ol {
@@ -821,6 +869,7 @@ figcaption p {
     font-weight: 700;
     color: {color:links};
     text-align: center;
+    transition: 0.6s;
 }
 
 body.night .inactive, body.night .user, body.night .deactivated {
@@ -830,11 +879,12 @@ body.night .inactive, body.night .user, body.night .deactivated {
  
 .user:hover {
     color: {color:link hover};
+    transition: 0.6s;
 }
 
 body.night .user:hover {
     color: var(--link-hover-night)!important;
-    transition: 0.5s;
+    transition: 0.6s;
 }
  
 .reblog-content {
@@ -846,23 +896,27 @@ body.night .user:hover {
     width: 100%;
     padding: 2px 10px;
     font-weight: 700;
-    -webkit-transition: all 0.9s ease;
-    -moz-transition: all 0.9s ease;
-    -o-transition: all 0.9s ease;
-    transition: all 0.9s ease;
+    transition: 0.6s;
     color: {color:accented text};
     background-color: {color:accent};
-    border: 2px dashed transparent;
+}
+
+body.night .read_more {
+    color: var(--accented-text-night)!important;
+    background-color: var(--accent-night);
+    transition: 0.6s;
 }
  
 .read_more:hover {
     background-color: transparent;
     color: {color:links};
-    border: 2px dashed {color:accent};
-    -webkit-transition: all 0.9s ease;
-    -moz-transition: all 0.9s ease;
-    -o-transition: all 0.9s ease;
-    transition: all 0.9s ease;
+    transition: 0.6s;
+}
+
+body.night .read_more:hover {
+    background-color: transparent;
+    color: var(--links-night);
+    transition: 0.6s;
 }
 
 /*----------POST INFO & PERMALINKS----------*/
@@ -884,6 +938,7 @@ body.night .user:hover {
     border: 3px solid {color:accent};
     box-sizing: border-box;
     padding: 3px;
+    transition: 0.6s;
 }
 
 body.night .src img  {
@@ -897,6 +952,7 @@ body.night .src img  {
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
+    transition: 0.6s;
 }
 
 body.night .time {
@@ -906,6 +962,7 @@ body.night .time {
 
 .time a {
     color: {color:permalink};
+    transition: 0.6s;
 }
 
 body.night .time a {
@@ -915,6 +972,7 @@ body.night .time a {
 
 .time a:hover {
     color: {color:permalink hover};
+    transition: 0.6s;
 }
 
 body.night .time a:hover {
@@ -942,10 +1000,12 @@ body.night #date-box {
     font-size: 1.1em;
     line-height: 10px;
     color: {color:accented text};
+    transition: 0.6s;
 }
 
 body.night #date-box a {
     color: var(--accented-text-night)!important;
+    transition: 0.6s;
 }
  
 #date-box span {
@@ -964,6 +1024,7 @@ body.night #date-box a {
     font-size: 20px;
     display: inline-block;
     vertical-align: middle;
+    transition: 0.6s;
 }
 
 body.night .la-chart-bar, body.night .la-sync, body.night .la-grin-hearts {
@@ -1043,6 +1104,7 @@ body.night .la-chart-bar, body.night .la-sync, body.night .la-grin-hearts {
     color: {color:links};
     font-size: 12px;
     font-weight: 700;
+    transition: 0.6s;
 }
 
 body.night .post_tags a,
@@ -1075,6 +1137,7 @@ body.night .post_tags a,
     font-size:18px; 
     display:inline-block; 
     vertical-align: middle; 
+    transition: 0.6s;
 }
 
 body.night .la-tag {
@@ -1116,6 +1179,7 @@ body.night #perma {
     text-transform: lowercase;
     box-sizing: border-box;
     position: relative;
+    transition: 0.6s;
 }
 
 body.night #permatg  {
@@ -1128,6 +1192,7 @@ body.night #permatg  {
     display: inline-block;
     margin: 0 5px;
     color: {color:links};
+    transition: 0.6s;
 } 
 
 body.night #permatg a {
@@ -1138,6 +1203,11 @@ body.night #permatg a {
 #permatg a:hover {
     color: {color:link hover};
 } 
+
+body.night #permatg a:hover {
+    color: var(--link-hover-night);
+    transition: 0.6s;
+}
 
 .rb {
     position: absolute;
@@ -1152,6 +1222,7 @@ body.night #permatg a {
     padding: 3px;
     margin-right: 2px;
     background-color: {color:accent};
+    transition: 0.6s;
 }
 
 body.night .root img, .via img {
@@ -1164,6 +1235,7 @@ body.night .root img, .via img {
     width: 540px;
     background-color: {color:posts};
     position: relative;
+    transition: 0.6s;
 }
 
 body.night #notecontainer  {
@@ -1259,6 +1331,7 @@ body.night .posts .title, body.night .posts .link {
     width: 10%;
     height: 3px;
     background-color: {color:accent};
+    transition: 0.6s;
 }
 
 body.night .posts .title:before, body.night .posts .link:before {
@@ -1268,10 +1341,7 @@ body.night .posts .title:before, body.night .posts .link:before {
  
 .posts .link a {
     color: {color:post title};
-    -webkit-transition: 0.8s ease;
-    -moz-transition: 0.8s ease;
-    -o-transition: 0.8s ease;
-    transition: 0.8s ease;
+    transition: 0.6s;
 }
 
 body.night .posts .link a {
@@ -1281,10 +1351,7 @@ body.night .posts .link a {
  
 .posts .link a:hover {
     color: {color:link hover};
-    -webkit-transition: 0.8s ease;
-    -moz-transition: 0.8s ease;
-    -o-transition: 0.8s ease;
-    transition: 0.8s ease;
+    transition: 0.6s;
 }
 
 body.night .posts .link a:hover {
@@ -1314,10 +1381,11 @@ body.night .posts .link a:hover {
     padding: 20px;
     padding-left: 20px;
     border-left: 1px solid {color:post borders};
+    transition: 0.6s;
 }
 
-body .quote {
-    border-left: 1px solid var(--night-borders);
+body.night .quote {
+    border-left: 1px solid var(--accent-night);
 }
  
 .la-quote-right {
@@ -1327,6 +1395,7 @@ body .quote {
     font-size: 1.2em;
     align-self: center;
     border-radius: 5px;
+    transition: 0.6s;
 }
 
 body.night .la-quote-right {
@@ -1353,6 +1422,7 @@ body.night .la-quote-right {
     display:flex;
     transition: 0.6s;
     height: 200px;
+    transition: 0.6s;
 } 
  
 body.night .audiowrapper {
@@ -1369,6 +1439,7 @@ body.night .audiowrapper {
     margin-left: 14%;
     margin-top: 13%;
     border-radius: 50%;
+    transition: 0.6s;
 }
 
 body.night .audio_player {
@@ -1391,6 +1462,7 @@ body.night .audio_player {
 	margin-left: 24px;
 	margin-top: 22px;
 	stroke: {color:text};
+	transition: 0.6s;
 }
 
 body.night .custom_audio_buttons svg {
@@ -1410,6 +1482,7 @@ body.night .custom_audio_buttons svg {
 	height: 0.5em;
 	border: 1px solid {color:text};
 	margin-top: 20px;
+	transition: 0.6s;
 }
 
 body.night .custom_audio_seekbar {
@@ -1421,6 +1494,7 @@ body.night .custom_audio_seekbar {
 	width: 0;
 	height: 100%;
 	background: {color:links};
+	transition: 0.6s;
 }
 
 body.night .custom_audio_seekbar_progress {
@@ -1491,6 +1565,7 @@ body.night .music_menu {
     padding: 5px;
     border: 3px solid {color:accent};
     border-radius: 100%;
+    transition: 0.6s;
 }
 
 body.night #askcont img {
@@ -1508,6 +1583,7 @@ body.night #askcont img {
     padding: 5px;
     border: 3px solid {color:accent};
     border-radius: 100%;
+    transition: 0.6s;
 }
 
 body.night #replycont img {
@@ -1629,6 +1705,7 @@ body.night .answer {
     margin-top: 0px;
     padding: 20px;
     border-bottom: 1px solid {color:post borders};
+    transition: 0.6s;
 }
 
 body.night .line {
@@ -1670,6 +1747,8 @@ body.night .line:nth-child(even) .label b {
     transition: 0.6s;
 }
 
+/*----------LINK BAR----------*/
+
 #top-bar {
     width: 100%;
     height: 80px;
@@ -1682,6 +1761,7 @@ body.night .line:nth-child(even) .label b {
     display: flex;
     align-items: center;
     border-bottom: 1px solid {color:post borders};
+    transition: 0.6s;
 }
 
 body.night #top-bar {
@@ -1702,6 +1782,7 @@ body.night #top-bar {
     background-color: {color:accent};
     color: {color:accented text};
     box-sizing: border-box;
+    transition: 0.6s;
 }
 
 body.night .la-moon, body.night .la-sun {
@@ -1710,11 +1791,35 @@ body.night .la-moon, body.night .la-sun {
     transition: 0.6s;
 }
 
+#top-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#top-title:first-letter {
+    color: {color:accent};
+    transition: 0.6s;
+}
+
+body.night #top-title:first-letter {
+    color: var(--accent-night);
+    transition: 0.6s;
+}
+
+/*----------NAVIGATION LINKS----------*/
+
+.morelinks {
+    margin-left: 40px;
+}
+
 .morelinks a {
     display: inline-block;
     margin: 0 15px;
     font-weight: 700;
     color: {color:navigation};
+    transition: 0.6s;
 }
 
 body.night ..morelinks a {
@@ -1724,12 +1829,38 @@ body.night ..morelinks a {
 
 .morelinks a:hover {
     color: {color:navigation hover};
+    transition: 0.6s;
 }
 
 body.night .morelinks a:hover {
     color: var(--link-hover-night)!important;
     transition: 0.6s;
 }
+
+/*----------TUMBLR LINKS----------*/
+
+.homelinks {
+    position: absolute;
+    right: -150px;
+    top: -11px;
+}
+
+.la-home, .la-envelope, .la-calendar, .la-inbox {
+    background-color: {color:permalink background};
+    color: {color:permalink};
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+body.night .la-home, body.night .la-envelope, body.night .la-calendar, body.night .la-inbox {
+    background-color: var(--permalink-background-night)!important;
+    color: var(--links-night)!important;
+    transition: 0.6s;
+}
+
+/*----------SIDEBAR----------*/
 
 #sidebar {
     width: 550px;
@@ -1747,7 +1878,6 @@ body.night .morelinks a:hover {
 
 .sidebar-title {
     font-size: 2.0em;
-    font-family: 'Playfair Display', serif;
     color: {color:sidebar title};
     font-weight: 700;
     position: absolute;
@@ -1767,6 +1897,7 @@ body.night .sidebar-title {
     background-color: {color:accent};
     position: absolute;
     top: 55px;
+    transition: 0.6s;
 }
 
 body.night #title-line {
@@ -1774,34 +1905,20 @@ body.night #title-line {
     transition: 0.6s;
 }
 
-.homelinks {
-    position: absolute;
-    right: -150px;
-    top: -11px;
-}
-
-.la-home, .la-envelope, .la-calendar, .la-inbox {
-    background-color: {color:permalink background};
-    color: {color:permalink};
-    padding: 5px;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-body.night .la-home, body.night .la-envelope, body.night .la-calendar, body.night .la-inbox {
-    background-color: var(--permalink-background-night)!important;
-    color: var(--links-night)!important;
-    transition: 0.6s;
-}
-
 .sidebar-image {
     width: 180px;
-    height: auto;
+    height: 330px;
     overflow: hidden;
     border: 10px solid {color:accent};
     background-color: {color:accent};
     box-sizing: border-box;
     border-radius: 90px;
+    transition: 0.6s;
+}
+
+.sidebar-image img {
+    width: 100%;
+    height: 100%;
 }
 
 body.night .sidebar-image {
@@ -1815,6 +1932,7 @@ body.night .sidebar-image {
     bottom: 0;
     background-color: {color:posts};
     color: {color:sidebar description};
+    text-align: {select:description text align};
     padding: 20px;
     box-sizing: border-box;
     transition:.6s;
@@ -1822,6 +1940,7 @@ body.night .sidebar-image {
     height: 165px;
     overflow: auto;
     margin-left: -4px;
+    transition: 0.6s;
 }
  
 body.night .sidebar-description {
@@ -1854,6 +1973,7 @@ body.night .sidebar-description {
     color: {color:accented text};
     line-height: 20px;
     text-align: center;
+    transition: 0.6s;
 }
 
 body.night .cred {
@@ -1868,6 +1988,7 @@ body.night .cred {
     display: block;
     background-color: {color:accent};
     color: {color:accented text};
+    transition: 0.6s;
 }
 
 body.night .la-arrow-circle-up {
@@ -1926,6 +2047,7 @@ $(document).ready(function(){
 
 <div id="top-bar">
 <div class="daynight"><i class="las la-moon"></i></div>
+<div id="top-title"><a href="/">{text:topbar title}</a></div>
     <nav class="morelinks"> <!-----------NAVIGATION LINKS----------->
     {block:ifLink1}<a href="{text:CustomLink1URL}">{text:CustomLink1Name}</a>{/block:ifLink1}
     {block:ifLink2}<a href="{text:CustomLink2URL}">{text:CustomLink2Name}</a>{/block:ifLink2}
@@ -1938,7 +2060,7 @@ $(document).ready(function(){
 
 <div class="wrap"> <!-----------POST CONTAINER----------->
 
-<aside id="sidebar">
+<aside id="sidebar"> <!-----------SIDEBAR----------->
 <div class="sidebar-image"><img src="{image:sidebar}"></div>
         <div class="sidebar-title">{Title}<div id="title-line">
             <nav class="homelinks"> <!-----------TUMBLR LINKS----------->
@@ -1951,7 +2073,7 @@ $(document).ready(function(){
     <div class="sidebar-cont">
         <div class="sidebar-description">{Description}</div>
     </div>
-</aside>
+</aside> <!-----------SIDEBAR----------->
 
 <section id="content"> <!-----------POST WRAPPER----------->
 
@@ -1960,16 +2082,16 @@ $(document).ready(function(){
 <article class="posts" post-type="{PostType}"> <!-----------POSTS----------->
 
 {block:IndexPage} 
-<div class="src-box">
-{block:RebloggedFrom} 
+<div class="src-box"> <!-----------REBLOGGED / SOURCE----------->
 <div class="src">
+{block:RebloggedFrom} 
     <a href="{ReblogParentURL}" title="{ReblogParentName}"><img src="{ReblogParentPortraitURL-64}"></a>
-     <a href="{ReblogRootURL}" title="{ReblogRootName}"><img src="{ReblogRootPortraitURL-64}"></a>
-</div>
+    <a href="{ReblogRootURL}" title="{ReblogRootName}"><img src="{ReblogRootPortraitURL-64}"></a>
 {/block:RebloggedFrom}
 {block:NotReblog}
 <a href="{Permalink}" title="{Name}"><img src="{PortraitURL-40}"></a>{/block:NotReblog}
-</div>
+{block:PinnedPostLabel}<a href="{Permalink}" title="{PinnedPostLabel}"><i class="las la-thumbtack"></i></a>{/block:PinnedPostLabel}
+</div></div> <!-----------REBLOGGED / SOURCE----------->
 {/block:IndexPage} 
  
 {block:ContentSource}
@@ -2249,9 +2371,8 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 
 {block:IndexPage} 
 {block:Date}
-<div class="time"> 
-
-<div id="date-box">
+<div class="time"> <!-----------POST INFO & PERMALINKS----------->
+<div id="date-box"> 
     {block:Date}
     <a href="{Permalink}" title="{TimeAgo}"> {ShortMonth} <span>{DayOfMonth}{DayOfMonthSuffix}</span></a>
     {/block:Date}
@@ -2265,19 +2386,17 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 <a title="like this post" class="like">{LikeButton size="15"}<i class="las la-grin-hearts"></i></a>
 </div>  
 
-</div>
+</div> <!-----------POST INFO & PERMALINKS----------->
 {/block:Date}
 {/block:IndexPage} 
 
-<!-----------POST TAGS----------->
 {block:IndexPage}
- {block:HasTags}
+ {block:HasTags} <!-----------POST TAGS----------->
 <div class="post_tags draggable">
 <div class="post_tags_inner">{block:Tags}
 <a href="{TagURL}"><i class="las la-tag"></i>{Tag}</a>{/block:Tags}</div></div>
-{/block:HasTags}
+{/block:HasTags} <!-----------POST TAGS----------->
 {/block:IndexPage}
-<!-----------POST TAGS----------->
  
 </article> <!-----------POSTS----------->
  
@@ -2400,6 +2519,7 @@ $(document).ready(function(){
         photoWrap: '.photo-data',
         photo: '.pxu-photo'
     });
+    //Tippy.js 
         tippy('a[title]', { 
             theme: 'custom', 
             arrow: tippy.roundArrow, 

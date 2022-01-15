@@ -154,7 +154,10 @@ CREDITS
 
 <meta name="select:description text align" content="left" title="left">
 <meta name="select:description text align" content="justify" title="justify">
- 
+
+<meta name="select:Post Size" content="300" title="300px">
+<meta name="select:Post Size" content="350" title="350px">
+<meta name="select:Post Size" content="375" title="375px"> 
 <meta name="select:Post Size" content="400" title="400px">
 <meta name="select:Post Size" content="450" title="450px">
 <meta name="select:Post Size" content="475" title="475px">

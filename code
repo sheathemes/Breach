@@ -44,6 +44,8 @@ CREDITS
 > Mini spotify player: https://glenthemes.tumblr.com/post/659842079511461888
 
 > NPF images fix v3.0: https://github.com/npf-images-v3/npf-images-v3.github.io/blob/main/WELCOME.md
+
+> Customized page border: https://glenthemes.tumblr.com/post/671422052920705024/customize-page-divider-tutorial
  
 !-->
  
@@ -188,8 +190,6 @@ CREDITS
 <meta name="if:Link4" content="1" />
 <meta name="if:Link5" content="1" />
 <meta name="if:Link6" content="1" />
-<meta name="if:Link7" content="1" />
-<meta name="if:Link8" content="1" />
  
 <meta name="text:CustomLink1URL" content="Link 1 URL" />
 <meta name="text:CustomLink1Name" content="Link 1" />
@@ -203,10 +203,6 @@ CREDITS
 <meta name="text:CustomLink5Name" content="Link 5" />
 <meta name="text:CustomLink6URL" content="Link 6 URL" />
 <meta name="text:CustomLink6Name" content="Link 6" />
-<meta name="text:CustomLink7URL" content="Link 7 URL" />
-<meta name="text:CustomLink7Name" content="Link 7" />
-<meta name="text:CustomLink8URL" content="Link 8 URL" />
-<meta name="text:CustomLink8Name" content="Link 8" />
  
 <meta name="image:background" content=""/>
 <meta name="image:sidebar" content=""/>

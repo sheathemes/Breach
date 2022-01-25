@@ -1422,11 +1422,14 @@ body.night .audiowrapper {
     justify-content: center;
     align-items: center;
 } 
+
+.audio-content .audio_player {
+    background-color: {color:posts};
+}
  
 .audio_player {
     position: absolute;
     z-index: 2;
-    background-color: {color:posts};
     width: 70px;
     height: 70px;
     border-radius: 50%;

@@ -25,15 +25,11 @@ CREDITS
  
 > Video resize script: http://shythemes.tumblr.com/post/134536748863/tutorial-resizing-videos
  
-> Style-my-Tootips: http://manos.malihu.gr/style-my-tooltips-jquery-plugin/
- 
 > Custom Tumblr lightbox: http://shythemes.tumblr.com/post/140444996328/tutorial-lightboxes
  
 > Icons: https://icons8.com/line-awesome / https://feathericons.com/
 
 > Smoothscroll script: https://cdnjs.com/libraries/smoothscroll
-
-> Inline images resizing script: https://gukthemes.com/post/169692012691/inline-images-resizing-script
 
 > Tippy.js: https://atomiks.github.io/tippyjs/
 
@@ -223,8 +219,8 @@ CREDITS
 --->
 <script src="//npf-images-v3.github.io/script.js"></script>
 <link rel="stylesheet" href="//npf-images-v3.github.io/recon.css">
-<style tmblr-npf>
 
+<style tmblr-npf>
 
 :root {
     --NPF-Caption-Spacing:1em;
@@ -501,21 +497,6 @@ body.night i, body.night em {
     color: var(--italic-night)!important;
     transition: 0.6s;
 }
-
-hr {
-    width: 30%;
-    height: 1px;
-    background-color: {color:post borders};
-    color: {color:post borders};
-    border: 0px solid transparent;
-    transition: 0.6s;
-}
-
-body.night hr {
-    background-color: var(--night-borders)!important;
-    color: var(--night-borders)!important;
-    transition: 0.6s;
-}
  
 small,sub,sup {
     font-size: calc({select:font size}px - 0.5px);
@@ -523,7 +504,7 @@ small,sub,sup {
  
 h1,h2,h3 {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: {color:bold};
     transition: 0.6s;
 }
@@ -827,6 +808,14 @@ body.night .posts ul li:before {
 
 .npf_inst {
     overflow: hidden;
+}
+
+.npf_inst, #npf_a0rsv {
+    margin-bottom: 20px;
+}
+ 
+.npf_inst.photo-origin, #npf_wmw57 {
+    padding-top: 10px;
 }
  
 .caption {
@@ -1429,16 +1418,22 @@ body.night .audiowrapper {
     transition: 0.6s;
 }
 
+.audio-content { 
+    width:30%;
+    padding:10%; 
+    position:relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ 
 .audio_player {
     position: absolute;
     z-index: 2;
     background-color: {color:posts};
     width: 70px;
     height: 70px;
-    margin-left: 14%;
-    margin-top: 13%;
     border-radius: 50%;
-    transition: 0.6s;
 }
 
 body.night .audio_player {
@@ -1512,12 +1507,6 @@ body.night .custom_audio_seekbar_progress {
 .audio_info p {
 	margin: 0.25em 0;
 }
- 
-.audio-content { 
-     width:25%;
-     padding:10%; 
-     position:relative; 
-} 
  
 .music_menu { 
     margin:0px; 
@@ -2038,7 +2027,7 @@ $(document).ready(function(){
 <a href="javascript:;" id="scrollToTop" rel="nofollow" title="scroll to top"><i class="las la-arrow-circle-up"></i></a>
 <!-----------SCROLL TO TOP ----------->
 <!-------------------DO NOT REMOVE THEME CREDIT!!!------------------->
- <a href="https://sheathemes.tumblr.com" class="cred" title="theme by sheathemes">&#169;</a>  
+ <a href="https://sheathemes.tumblr.com" class="cred" title="theme by sheathemes" target="_blank">&#169;</a>  
 <!-------------------DO NOT REMOVE THEME CREDIT!!!------------------->
 </footer>
 
@@ -2077,8 +2066,8 @@ $(document).ready(function(){
 <section id="content"> <!-----------POST WRAPPER----------->
 
 {block:posts inlineMediaWidth="1280" inlineNestedMediaWidth="1280"}
-
-<article class="posts" post-type="{PostType}"> <!-----------POSTS----------->
+ 
+<article class="posts" id="{PostID}" post-type="{PostType}"> <!-----------POSTS----------->
 
 {block:IndexPage} 
 <div class="src-box"> <!-----------REBLOGGED / SOURCE----------->
@@ -2109,13 +2098,16 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 {block:Title}<div class="title">{Title}</div>{/block:Title}
 <div class="caption">{block:NotReblog} <figcaption> {Body} </figcaption> {/block:NotReblog} {block:RebloggedFrom} <div class="reblog-list">
  
-{block:Reblogs} <div class="{block:isOriginalEntry}original-reblog{/block:isOriginalEntry}"> <div class="reblog-header">
+{block:Reblogs} 
+<div class="{block:isOriginalEntry}original-reblog{/block:isOriginalEntry}">
+<div class="source-head">
+<div class="reblog-header">
  
 {block:IsActive} <a class="{block:isNotOriginalEntry}sub-reblog{/block:isNotOriginalEntry}" href="{Permalink}" target="_blank"> <img src="{PortraitURL-64}"> </a> {/block:IsActive}
  
 {block:IsDeactivated} <span class="inactive {block:isNotOriginalEntry} sub-reblog{/block:isNotOriginalEntry}"> <img src="{PortraitURL-64}"> </span> {/block:IsDeactivated} {block:IsActive} <a target="_blank" href="{Permalink}" class="user"> {Username} </a> {/block:IsActive}
  
-{block:IsDeactivated} <span class="inactive deactivated">{Username} </span> {/block:IsDeactivated} </div> <div class="reblog-content"> {Body} </div> </div> {/block:Reblogs} </div> {/block:RebloggedFrom} </div>
+{block:IsDeactivated} <span class="inactive deactivated">{Username} </span> {/block:IsDeactivated} </div> <div class="reblog-content"> {Body} </div> </div> </div>{/block:Reblogs} </div> {/block:RebloggedFrom} </div>
 </div>
 {/block:Text}
  
@@ -2237,10 +2229,11 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 <div class="audiowrapper">
 {block:AudioPlayer}
 {AudioPlayer}
-<div class="audio_player">
-	<span class="custom_audio_buttons"></span>
+<div class="audio-content" style="{block:AlbumArt} background:url({AlbumArtURL}); {/block:AlbumArt} -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+    <div class="audio_player">
+	    <span class="custom_audio_buttons"></span>
+    </div> 
 </div>
-<div class="audio-content" style="{block:AlbumArt} background:url({AlbumArtURL}); {/block:AlbumArt} -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
 <div class="music_menu">
 {block:TrackName}<p><span class="info">{TrackName}</span></p>{/block:TrackName}
 {block:Artist}<p><span class="info">{Artist}</span></p>{/block:Artist}
@@ -2482,10 +2475,6 @@ Posted {ShortMonth} {DayOfMonthWithZero}, {Year} @ {12Hour} {AmPm}
 <!-----------Video resizing script shythemes @ tumblr----------->
 <script src="https://static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script>
 <!-----------Video resizing script shythemes @ tumblr----------->
-
-<!---------- inline images resizing script ---------->
-<script src="//dl.dropbox.com/s/1mztc6y7i6ry9ri/gtresizing.js"> </script>
-<!---------- inline images resizing script ---------->
 
 <!-----------Tooltips Script----------->
 <script src="https://unpkg.com/popper.js@1"></script> <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script> <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/svg-arrow.css" />

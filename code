@@ -1435,7 +1435,7 @@ body.night .audiowrapper {
     border-radius: 50%;
 }
 
-body.night .audio_player {
+body.night .audio-content .audio_player {
     background-color: var(--question-background-night)!important;
     transition: 0.6s;
 }

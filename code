@@ -806,10 +806,6 @@ body.night .posts ul li:before {
     padding: {select:Post Padding}px;
 }
 
-.npf_inst {
-    overflow: hidden;
-}
-
 .npf_inst, #npf_a0rsv {
     margin-bottom: 20px;
 }

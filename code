@@ -249,29 +249,7 @@ CREDITS
     --permalink-background-night: {color:permalink background night};
     --permalink-hover-night: {color:permalink hover night};
 }
- 
-/*----------FADE-IN ANIMATION----------*/
- 
-@keyframes fadein {
-    from {opacity:0;}
-    to {opacity:1;}
-}
- 
-@-moz-keyframes fadein { /* Firefox */
-    from {opacity:0;}
-    to {opacity:1;}
-}
- 
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {opacity:0;}
-    to {opacity:1;}
-}
- 
-@-o-keyframes fadein { /* Opera */
-    from {opacity:0;}
-    to {opacity: 1;}
-}
- 
+
 /*----------TUMBLR CONTROLS----------*/
  
 iframe.tmblr-iframe {
@@ -460,19 +438,13 @@ html, body {
     background: {color:background} url({image:Background}) center;
     background-attachment: {select:Background Attachment};
     background-repeat: {select:Background Repeat};
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    animation: fadein 2.5s;
-    -moz-animation: fadein 2.5s; /* Firefox */
-    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
-    -o-animation: fadein  2.5s; /* Opera */
-    transition: 0.6s;
+    transition: 0.2s;
 }
 
 body.night {
     background: var(--background-night)!important;
     color:var(--text-night)!important;
-    transition:.6s;
+    transition:0.2s;
 }
 
 p:empty {
@@ -1940,27 +1912,11 @@ body.night .sidebar-description {
 /*----------THEME CREDIT/DO NOT REMOVE!!!---------*/
  
 #bottom {
-    bottom: 8px;
+    bottom: 40px;
     position: fixed;
-    right: 30px;
+    right: 40px;
     z-index: 99;
-}
-
-#bottom a:hover {
-    color: {color:accented text};
-}
- 
-.cred {
-    padding: 3px;
-    font-size: 18px;
-    width: 18px;
-    height: 18px;
-    display: inline-block;
-    background-color: {color:accent};
-    color: {color:accented text};
-    line-height: 20px;
-    text-align: center;
-    transition: 0.6s;
+    display: flex;
 }
 
 body.night .cred {
@@ -1968,19 +1924,21 @@ body.night .cred {
     color: var(--accented-text-night)!important;
 }
  
-.la-arrow-circle-up {
+.la-arrow-circle-up, .la-copyright {
     padding: 3px;
-    font-size: 18px;
-    width: 18px;
-    display: block;
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    margin: 0 2px;
     background-color: {color:accent};
     color: {color:accented text};
     transition: 0.6s;
 }
 
-body.night .la-arrow-circle-up {
+body.night .la-arrow-circle-up, body.night .la-copyright {
     background-color: var(--accent-night);
     color: var(--accented-text-night)!important;
+    transition: 0.6s;
 }
  
 /*----------SCROLL TO TOP---------*/
@@ -1988,11 +1946,8 @@ body.night .la-arrow-circle-up {
 #scrollToTop:link,
 #scrollToTop:visited {
     display: none;
-    position: fixed;
     font-size: 12px;
-    bottom: 11px;
-    right: 53px;
-    color: {color:accented text};
+    color: var(--accented-text);
     padding: 0px 5px;
     width: auto;
     z-index: 900;
@@ -2022,11 +1977,13 @@ $(document).ready(function(){
 <body>
 
 <footer id="bottom">
+
 <!-----------SCROLL TO TOP ----------->
 <a href="javascript:;" id="scrollToTop" rel="nofollow" title="scroll to top"><i class="las la-arrow-circle-up"></i></a>
 <!-----------SCROLL TO TOP ----------->
+
 <!-------------------DO NOT REMOVE THEME CREDIT!!!------------------->
- <a href="https://sheathemes.tumblr.com" class="cred" title="theme by sheathemes" target="_blank">&#169;</a>  
+ <a href="https://sheathemes.tumblr.com" target="_blank" title="theme by sheathemes"><i class="las la-copyright"></i></a>  
 <!-------------------DO NOT REMOVE THEME CREDIT!!!------------------->
 </footer>
 
